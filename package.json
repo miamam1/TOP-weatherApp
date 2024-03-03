@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gitPagesScript" : "git subtree push -- prefix dist origin gh-pages",
+    "gitPagesScript" : "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
