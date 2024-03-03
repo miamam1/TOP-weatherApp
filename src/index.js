@@ -11,7 +11,7 @@ function handleError(fn) {
 
 async function getWeather(place) {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=f5898a6f5ccf4851aa9151936241002&q=${place}&days=3`,
+    `https://api.weatherapi.com/v1/forecast.json?key=f5898a6f5ccf4851aa9151936241002&q=${place}&days=3`,
     { mode: "cors" }
   );
   //   im stupid, its fine for the errors to show in console literally does for all the top ones, just make sure you show the user via UI
